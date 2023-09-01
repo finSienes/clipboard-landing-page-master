@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1{
+    color: hsl(210, 10%, 33%);
+    line-break:unset;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    font-size: xx-large;
+}
+
+p, .links a{
+    display: block;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-weight: 400;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
+
+.hero-page{
+    background: url(./images/bg-header-desktop.png) no-repeat;
+    text-align: center;
+    padding-top:10%;
+}
+
+.hero-content p, .feature-intro p, .final-CTA p{
+    white-space: pre;
+}
+
+
+.hero-btn{
+    border: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px auto;
+    border-radius: 30px;
+    width: 20%;
+    font-weight: 600;
+}
+
+.hero-btn:hover{
+    border-bottom: gray 5px solid;
+}
+
+.ios{
+    background:hsl(171, 66%, 44%) ;
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.offers, .features, .links{
+    margin-top: 10%;
+}
+
+.offer-intro p{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.offer-list{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 8em;
+}
+
+.offer-list img{
+    flex-direction: row;
+   width: auto;
+   height: auto;
+   flex: 20%;
+}
+
+.offer-text{
+    flex:85% !important;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.offer-text h1, .offer-text p{
+    text-align: left;
+}
+
+.feature-list{
+    display: flex;
+    margin: auto;
+}
+
+.features-icon{
+    width: 30%;
+    padding-left: 2.5em;
+}
+
+.partners img{
+    margin: 10em 3em;
+    width: auto;
+}
+
+footer{
+    margin-top: 10%;
+    background-color: #F5F6F8;
+}
+.links{
+    display: flex;
+}
+
+.links img{
+    width: 20%;
+    height: auto;
+    margin: 5em auto;
+    flex:50%;
+    padding-left: 6em;
+}
+
+.link-btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
+    margin:5em auto;
+    padding-left: 10em;
+
+}
+
+.link-socials{
+    display: flex;
+    margin:5em auto;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer-btn:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .hero-page{
+        background: url(./images/bg-header-mobile.png) no-repeat;
+        text-align: center;
+        padding-top: 35%;
+    }
+    
+    .hero-content p{
+       white-space:normal;
+    }
+    
+    
+    .hero-btn{
+        display: block;
+        margin: 10px auto;
+        width: 70%;
+    }
+
+    .offers, .features, .links{
+        margin-top: 35%;
+    }
+    
+    .offer-list{
+        display:block;
+    }
+    
+    .offer-list img{
+       width: 100%;
+       height: auto;
+       flex: 20%;
+    }
+    
+    .offer-text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .offer-text h1, .offer-text p{
+        text-align: center;
+    }
+    
+    .feature-intro p{
+        white-space: normal;
+    }
+
+    .features-img img{
+        width: 100%;
+        height: auto;
+     }
+    
+    .feature-list{
+        display: block;
+        margin: auto;
+    }
+    
+    .features-icon{
+        width: 100%;
+        padding-left: 0;
+        margin: 5em 0;
+    }
+    
+    .partners img{
+        margin: 5em 3em;
+        width: auto;
+    }
+    
+    .final-CTA p{
+        white-space: normal;
+    }
+    
+    footer{
+        margin-top: 10%;
+        background-color: #F5F6F8;
+    }
+    .links{
+        display: block;
+    }
+    
+    .links img{
+        width: 20%;
+        height: auto;
+        margin: 5em auto;
+        padding-left: 0;
+    }
+    
+    .link-btn{
+        display: block;
+        margin:1em auto;
+        padding-left: 0;
+    
+    }
+    
+    .link-socials{
+        display: flex;
+        margin: auto;
+        width: 85%;
+        text-align: center;
+    }
+
+    .footer-btn:hover{
+        color:hsl(171, 66%, 44%);
+    }
+    
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+    
+}
