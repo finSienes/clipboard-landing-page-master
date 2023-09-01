@@ -159,7 +159,24 @@ a{
     color: hsl(228, 45%, 44%); 
 }
 
-@media only screen and (max-width: 768px) {
+@media 
+  (min-device-width: 1035px){ 
+    .hero-page{
+        background: url(./images/bg-header-desktop.png) no-repeat;
+    }
+
+    .offer-list{
+        display: block;
+    }
+
+    .offer-text h1, .offer-text p{
+        text-align: center;
+    }
+    
+    
+}
+
+@media only screen and (max-device-width: 768px) {
     
     .hero-page{
         background: url(./images/bg-header-mobile.png) no-repeat;
