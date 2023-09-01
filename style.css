@@ -160,23 +160,68 @@ a{
 }
 
 @media 
-  (min-device-width: 1035px){ 
-    .hero-page{
-        background: url(./images/bg-header-desktop.png) no-repeat;
+  (max-device-width: 992px){ 
+    .hero-content p, .feature-intro p, .final-CTA p{
+        white-space: normal;
     }
 
-    .offer-list{
+    .hero-btn{
         display: block;
+        margin: 10px auto;
+        width: 70%;
     }
 
+    .offers, .features, .links{
+        margin-top: 35%;
+    }
+    
+    .offer-list{
+        display:block;
+    }
+    
+    .offer-list img{
+       width: 100%;
+       height: auto;
+       flex: 20%;
+    }
+    
+    .offer-text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
     .offer-text h1, .offer-text p{
         text-align: center;
     }
+
+    .features-img img{
+        width: 100%;
+        height: auto;
+     }
     
+    .feature-list{
+        display: block;
+        margin: auto;
+    }
+    
+    .features-icon{
+        width: 100%;
+        padding-left: 0;
+        margin: 5em 0;
+    }
+    
+    .partners img{
+        margin: 5em 3em;
+        width: auto;
+    }
+
+    .link-socials{
+        display: block;
+    }
     
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 375px) {
     
     .hero-page{
         background: url(./images/bg-header-mobile.png) no-repeat;
